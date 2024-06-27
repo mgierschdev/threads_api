@@ -12,3 +12,4 @@ local/
 .env
 
 package-lock.json
+/.idea/*

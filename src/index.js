@@ -63,7 +63,8 @@ const PARAMS__SCOPE = 'scope';
 const PARAMS__TEXT = 'text';
 
 // Read variables from environment
-require('dotenv').config();
+require('dotenv').config({path:'/Users/maximiliamgierschmann/Study-Repo/threads_api/.env'});
+
 const {
     HOST,
     PORT,
