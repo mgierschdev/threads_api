@@ -753,7 +753,7 @@ async function showReplies(req, res, isTopLevel) {
         username,
         paging,
         replies,
-        manage: isTopLevel ? true : false,
+        manage: isTopLevel,
         title: 'Replies',
     });
 }
